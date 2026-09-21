@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Create an Account</title>
+    <link rel="stylesheet" href="../css/mySite.css">
+</head>
+<body class="p1-account">
+
+    <h1>Yousif Findakly</h1>
+
+    <h2>Create an Account</h2>
+
+    <form action="https://unfinishedbusiness.app/alert.php" method="post">
+
+        <h3>Account Information</h3>
+
+        <p>
+            <label for="firstName">First Name:</label>
+            <input type="text" id="firstName" name="first_name">
+        </p>
+
+        <p>
+            <label for="lastName">Last Name:</label>
+            <input type="text" id="lastName" name="last_name">
+        </p>
+
+        <p>
+            <label for="emailAddress">Email Address:</label>
+            <input type="text" id="emailAddress" name="email_address">
+        </p>
+
+        <p>
+            <label for="password">Password:</label>
+            <input type="password" id="password" name="password">
+        </p>
+
+        <p>
+            <label for="confirmPassword">Confirm Password:</label>
+            <input type="password" id="confirmPassword" name="confirm_password">
+        </p>
+
+        <p>
+            <label for="birthDate">Birth Date:</label>
+            <input type="date" id="birthDate" name="birth_date"
+                   min="1970-01-01" max="2030-12-31" value="2000-10-21">
+        </p>
+
+        <h3>Major</h3>
+        <div class="p1-majors">
+            <div class="p1-option">
+                <input type="radio" id="majorCS" name="major" value="Computer Science"
+                       aria-label="Computer Science">
+                <label for="majorCS" class="p1-radiomark"></label>
+                <a href="https://www.unf.edu/ccec/computing/computer-science-program.html"
+                   target="_blank">Computer Science</a>
+            </div>
+            <div class="p1-option">
+                <input type="radio" id="majorDS" name="major" value="Data Science"
+                       aria-label="Data Science">
+                <label for="majorDS" class="p1-radiomark"></label>
+                <a href="https://www.unf.edu/ccec/computing/data-science-program.html"
+                   target="_blank">Data Science</a>
+            </div>
+            <div class="p1-option">
+                <input type="radio" id="majorFT" name="major" value="FinTech"
+                       aria-label="FinTech">
+                <label for="majorFT" class="p1-radiomark"></label>
+                <a href="https://www.unf.edu/ccec/computing/Financial-Technology-program.html"
+                   target="_blank">FinTech</a>
+            </div>
+            <div class="p1-option">
+                <input type="radio" id="majorISci" name="major" value="Information Science"
+                       aria-label="Information Science">
+                <label for="majorISci" class="p1-radiomark"></label>
+                <a href="https://www.unf.edu/ccec/computing/information-science-program.html"
+                   target="_blank">Information Science</a>
+            </div>
+            <div class="p1-option">
+                <input type="radio" id="majorISys" name="major" value="Information Systems"
+                       aria-label="Information Systems">
+                <label for="majorISys" class="p1-radiomark"></label>
+                <a href="https://www.unf.edu/ccec/computing/information-systems-program.html"
+                   target="_blank">Information Systems</a>
+            </div>
+            <div class="p1-option">
+                <input type="radio" id="majorIT" name="major" value="Information Technology"
+                       aria-label="Information Technology">
+                <label for="majorIT" class="p1-radiomark"></label>
+                <a href="https://www.unf.edu/ccec/computing/information-technology-program.html"
+                   target="_blank">Information Technology</a>
+            </div>
+        </div>
+
+        <h3>Programming Language Experience</h3>
+        <div class="p1-langs">
+            <div class="p1-option">
+                <input type="checkbox" id="langC" name="languages[]" value="C" aria-label="C">
+                <label for="langC" class="p1-checkmark"></label>
+                <a href="https://en.wikipedia.org/wiki/C_(programming_language)"
+                   target="_blank">C</a>
+            </div>
+            <div class="p1-option">
+                <input type="checkbox" id="langCSharp" name="languages[]" value="C#" aria-label="C#">
+                <label for="langCSharp" class="p1-checkmark"></label>
+                <a href="https://en.wikipedia.org/wiki/C_Sharp_(programming_language)"
+                   target="_blank">C#</a>
+            </div>
+            <div class="p1-option">
+                <input type="checkbox" id="langJava" name="languages[]" value="Java" aria-label="Java">
+                <label for="langJava" class="p1-checkmark"></label>
+                <a href="https://en.wikipedia.org/wiki/Java_(programming_language)"
+                   target="_blank">Java</a>
+            </div>
+            <div class="p1-option">
+                <input type="checkbox" id="langJS" name="languages[]" value="JavaScript" aria-label="JavaScript">
+                <label for="langJS" class="p1-checkmark"></label>
+                <a href="https://en.wikipedia.org/wiki/JavaScript"
+                   target="_blank">JavaScript</a>
+            </div>
+            <div class="p1-option">
+                <input type="checkbox" id="langPHP" name="languages[]" value="PHP" aria-label="PHP">
+                <label for="langPHP" class="p1-checkmark"></label>
+                <a href="https://en.wikipedia.org/wiki/PHP"
+                   target="_blank">PHP</a>
+            </div>
+            <div class="p1-option">
+                <input type="checkbox" id="langPython" name="languages[]" value="Python" aria-label="Python">
+                <label for="langPython" class="p1-checkmark"></label>
+                <a href="https://en.wikipedia.org/wiki/Python_(programming_language)"
+                   target="_blank">Python</a>
+            </div>
+            <div class="p1-option">
+                <input type="checkbox" id="langVB" name="languages[]" value="Visual Basic" aria-label="Visual Basic">
+                <label for="langVB" class="p1-checkmark"></label>
+                <a href="https://en.wikipedia.org/wiki/Visual_Basic"
+                   target="_blank">Visual Basic</a>
+            </div>
+            <div class="p1-option">
+                <input type="checkbox" id="langOther" name="languages[]" value="Other" aria-label="Other">
+                <label for="langOther" class="p1-checkmark"></label>
+                <label for="langOther" class="p1-optiontext">Other</label>
+            </div>
+        </div>
+
+        <p class="p1-buttons">
+            <input type="reset" value="Reset">
+            <input type="submit" value="Submit">
+        </p>
+
+        <!-- Replace [Email ID] with your Email_ID from the Grades section on Canvas. -->
+        <input type="hidden" name="username" value="[Email ID]" />
+        <input type="hidden" name="to_email_address" value="findaklybrothers@gmail.com" />
+        <input type="hidden" name="to_display_name" value="Yousif Findakly" />
+    </form>
+
+    <hr>
+    <p class="p1-nav">
+        <a href="index.html">My Personal Page</a> |
+        <a href="../index.html">My ePortfolio</a>
+    </p>
+
+</body>
+</html>
