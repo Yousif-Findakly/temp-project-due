@@ -19,7 +19,7 @@ body.p1-account {
 }
 
 .p1-degree      { font-weight: bold; }
-.p1-diploma     { font-style: italic; }
+.p1-diploma     { font-weight: bold; }
 .p1-certificate { text-decoration: underline; }
 
 
